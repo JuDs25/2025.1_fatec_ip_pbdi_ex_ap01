@@ -19,3 +19,5 @@ def menu():
 
             if operacao == "1":
                 print(f"Resultado: {calculadora.somar(a, b)}")
+            if operacao == "2":
+                print(f"Resultado: {calculadora.subtrair(a, b)}")
