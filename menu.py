@@ -10,3 +10,6 @@ def menu():
         print("0. Sair")
 
         operacao = input("Escolha uma das opções das operações matemáticas, que consta no menu: ")
+        if operacao == '0':
+            print("Saindo...")
+            break
