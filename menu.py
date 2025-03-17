@@ -23,3 +23,8 @@ def menu():
                 print(f"Resultado: {calculadora.subtrair(a, b)}")
             if operacao == "3":
                 print(f"Resultado: {calculadora.multiplicar(a, b)}")
+            if operacao == "4":
+                if b == 0:
+                    print("Erro: não é possível dividir por zero.")
+                else:
+                    print(f"Resultado: {calculadora.dividir(a, b)}")
