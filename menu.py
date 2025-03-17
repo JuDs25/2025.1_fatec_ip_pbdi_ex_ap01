@@ -28,3 +28,5 @@ def menu():
                     print("Erro: não é possível dividir por zero.")
                 else:
                     print(f"Resultado: {calculadora.dividir(a, b)}")
+if __name__ == "__main__":
+    menu()  # A função só vai rodar quando o script for executado diretamente
