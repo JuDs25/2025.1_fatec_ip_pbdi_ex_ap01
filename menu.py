@@ -13,3 +13,9 @@ def menu():
         if operacao == '0':
             print("Saindo...")
             break
+        elif operacao in ['1', '2', '3', '4']:
+            a = float(input("Digite o primeiro número: "))
+            b = float(input("Digite o segundo número: "))
+
+            if operacao == "1":
+                print(f"Resultado: {calculadora.somar(a, b)}")
